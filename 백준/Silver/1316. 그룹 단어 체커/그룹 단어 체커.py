@@ -2,7 +2,7 @@ n = int(input())
 arr = [input() for _ in range(n)]
 cnt = 0
 
-for idx, i in enumerate(arr):
+for i in arr:
     word = i[0]
     newstr = ""
     result = True
