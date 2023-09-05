@@ -29,7 +29,7 @@ for i in range(len(dice_num)):
         result = 2000 + (max_first+1)*500 + (max_second+1)*500
     elif dice_list[max_first] == 2:
         result = 1000 + (max_first+1)*100
-    if max_result < result:
+    if max_result < result: 
         max_result = result
     dice_list = [0] * 6
     max_first = -1
